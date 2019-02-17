@@ -1,0 +1,237 @@
+
+body {
+background: #fff;
+background: linear-gradient(to bottom,#fff, #eaeaea);
+}
+.page-container {
+	padding: 50px;
+}
+
+/* --------TYPOGRAPHY _____________________________________________________________________*/
+
+h1, h2, h3, h4, h5, p, hr {
+	color: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+}
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+}
+p {
+	font-size: 1.2em;
+	color: #f7f7f7;
+}
+p span {
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #fff;
+}
+
+a {
+	color: #fcf010;
+	opacity: 0.8;
+	font-weight: 500;
+	text-decoration: underline;
+}
+a:hover {
+	color: #fe6860;
+	opacity: 0.8;
+	font-weight: 400;
+	text-decoration: underline;
+}
+.orange_box h2, .orange_box p, .yellow_box h2, .yellow_box p, .white_box h2, .white_box p {
+	margin-left: 20%;
+}
+.pink_box h2, .pink_box p, .purple_box h2, .purple_box p {
+	margin-right: 20%;
+}
+.orange_box p, .pink_box p, .yellow_box p, .green_box p, .purple_box p, .white_box p {
+	color: #fff;
+	background-color: #222;
+	padding: 10px;
+}
+.orange_box h2, .pink_box h2, .yellow_box h2, .green_box h2, .purple_box h2, .white_box h2 {
+	font-weight: 400;
+	color: #fff;
+	background-color: #222;
+	padding: 10px;
+}
+
+/* ----TITLE SECTION ___________________________________________________________*/
+
+.title_container img {
+	max-height: 130px;
+	max-width: 130px;
+	margin: 30px 0px 0px;
+}
+.title {
+	text-align: left;
+}
+.title h2 {
+	color: #222;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+}
+div.typo_separator {
+	width: 100%;
+/*	border-bottom: 2px solid #222;*/
+}
+
+/* ---- ABOUT BOXES ___________________________________________________________*/
+
+.about {
+	padding-top: 100px;
+}
+
+div.orange_box {
+	background-color: #fe6860;
+	background-color: rgba(254, 104, 96, 0.8);
+	width: 100%;
+	margin-top: 100px;
+	padding: 10% 5% 10% 5%;
+}
+div.pink_box {
+	background-color: rgba(251, 206, 177, 0.8);
+	width: 100%;
+	margin-top: -50px;
+	padding: 10% 5% 10% 5%;
+}
+div.yellow_box {
+	background-color: rgba(205, 212, 35, 0.8);
+	width: 100%;
+	margin-top: -50px;
+	padding: 10% 5% 10% 5%;
+}
+
+div.green_box {
+	background-color: rgba(165, 187, 188, 0.8);
+	width: 100%;
+	margin-top: -50px;
+	padding: 10% 5% 10% 5%;
+}
+div.purple_box {
+	background-color: rgba(101, 52, 255, 0.8);
+	width: 100%;
+	margin-top: -50px;
+	padding: 10% 5% 10% 5%;
+}
+
+div.white_box {
+	background-color: rgba(181, 35, 138, 0.8);
+	width: 100%;
+	margin-top: -50px;
+	padding: 10% 5% 10% 5%;
+}
+
+/* ---- FOOTER __________________________________________________________________________*/
+
+div.icons_container {
+	margin: 100px 0px 50px 0px;
+	text-align: center;
+}
+div.icons_container i {
+	margin: 0px 15px 0px 15px;
+	color: #222;
+	opacity: 1;
+}
+div.icons_container a {
+	opacity: 1;
+}
+div.icons_container a:hover {
+	opacity: 0.5;
+}
+
+
+/* ---- STYLES FOR MOBILE_______________________________________________________________*/
+
+@media (max-width: 750px) {
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+		padding-right: 0px !important; 
+	}
+	.page-container {
+		padding: 0px;
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 3.5em;
+		max-width: 60%;
+		font-family: 'Montserrat', sans-serif;
+	}
+	p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.title {
+		padding: 0px 50px 50px 50px;
+	}
+	.title h2 {
+		font-size: 2.1em;
+	}
+	.title_container img {
+		max-height: 110px;
+		max-width: 110px;
+		margin: 50px 0px 0px 50px;
+	}
+	.orange_box h2, .orange_box p, .yellow_box h2, .yellow_box p, .white_box p, .white_box h2 {
+		margin-left: 10%;
+	}
+	.pink_box h2, .pink_box p, .purple_box h2, .purple_box p {
+		margin-right: 10%;
+	}
+	div.orange_box {
+		margin-top: 100px;
+		padding: 10% 0% 10% 0%;
+	}
+	div.pink_box {
+		margin-top: 0px;
+		padding: 10% 0% 10% 0%;
+	}
+	div.yellow_box {
+		margin-top: 2px;
+		padding: 10% 0% 10% 0%;
+	}
+	div.green_box {
+		margin-top: 1px;
+		padding: 10% 0% 10% 0%;
+	}
+	div.purple_box {
+		margin-top: 1px;
+		padding: 10% 0% 10% 0%;
+	}
+	div.white_box {
+		margin-top: 1px;
+		padding: 10% 0% 10% 0%;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
